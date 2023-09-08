@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .navbar button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  .navbar button.active {
+    font-weight: bold;
+    color:aqua
+  }
+
